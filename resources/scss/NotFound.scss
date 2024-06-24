@@ -1,0 +1,15 @@
+@charset "utf-8";
+@use "global/Variable"; //変数が定義されたファイルの読み込み
+@import "global/Classname"; //クラスが定義されたファイルの読み込み
+
+.main-h1_1-1{
+    color: Variable.$text-color3;
+    font-size: 50px;
+    font-weight: unset;
+    font-family: cursive, system-ui;
+    text-shadow: 1px 1px Variable.$text-shadow-color, -1px 1px Variable.$text-shadow-color,
+                 1px -1px Variable.$text-shadow-color, -1px -1px Variable.$text-shadow-color;
+    text-align: center;
+    position: relative;
+    top: 200px;
+}

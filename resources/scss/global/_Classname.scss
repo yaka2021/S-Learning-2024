@@ -1,0 +1,22 @@
+@charset "utf-8";
+@use "Variable"; //変数が定義されたファイルの読み込み
+
+body{
+    margin: 0; //Headerの余白を無くす
+    padding: 0; //Headerの余白を無くすために入れておくと無難
+    background-color: Variable.$back-color;
+    background-image: url(../img/cyberBack.png);
+    animation: popLoop 5s infinite linear;
+}
+
+main{
+    height: 550px;
+    position: relative;
+    top: 100px;
+}
+
+@keyframes popLoop{
+	0%{ background-position-x: 96px }
+	100%{ background-position-x: 0}
+}
+
