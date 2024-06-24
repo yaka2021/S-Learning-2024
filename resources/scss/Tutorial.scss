@@ -1,0 +1,46 @@
+@charset "utf-8";
+@use "global/Variable"; //変数が定義されたファイルの読み込み
+@import "global/Classname"; //クラスが定義されたファイルの読み込み
+
+.main-p_2-1{
+    width: 300px;
+    min-height: 300px;
+    position: relative;
+    top: 10px;
+    left:10px;
+    background-color: Variable.$text-color1;
+    color:Variable.$border-color2;
+	border: 5px solid Variable.$border-color2;
+	border-radius: 15px;
+	padding:20px;
+    font-size: 15px;
+	font-weight: bold;
+}
+
+.main-div_2-2{
+    position: absolute;
+    top:25px;
+    left:425px;
+
+    .link-btn_1-1{
+        position: relative;
+        top:55px;
+        right:475px;
+        width: 300px;
+        height: 50px;
+        font-size: 20px;
+        font-weight: bold;
+        cursor: pointer;
+        background-color: Variable.$text-color1;
+        color:Variable.$text-color2;
+        border: 2px solid Variable.$border-color2;
+    }
+    
+    .link-btn_1-1:hover {
+        opacity: 0.7;
+    }
+}
+
+
+
+

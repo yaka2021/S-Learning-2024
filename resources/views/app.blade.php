@@ -9,11 +9,11 @@
         <title>S-Learning 2024</title>
         
         @viteReactRefresh <!-- LaravelにReactを組み込むために必要-->
-        @vite(['resources/js/app.js']) <!-- jsファイルの読み込み-->
+        @vite(['resources/js/index.jsx']) <!-- jsxファイルの読み込み-->
     </head>
 
     <body>
-        <div id="app"></div> <!-- Reactのコンテナ -->
+        <div id="app"></div> <!-- Reactコンポーネントを配置するためのコンテナタグをid属性appで用意 -->
     </body>
     
 </html>

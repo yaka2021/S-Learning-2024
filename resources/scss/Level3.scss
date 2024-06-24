@@ -1,0 +1,36 @@
+@charset "utf-8";
+
+$cyberGreen: #8bc34a;
+$textColor1: #1b5e20;
+
+.level3{
+    margin: auto;
+    width:20%;
+    height:100px;
+    position:relative;
+    top:150px;
+    color:$cyberGreen;
+    border: 2px solid #0D47A1;
+    background: $textColor1;
+    font-size:30px;
+
+    p{
+        text-align: center;
+    }
+}
+
+.resource{
+    height:300px;
+    position:relative;
+    top:200px;
+    border-top: 2px solid $cyberGreen;
+    border-bottom: 2px solid $cyberGreen;
+    background: $textColor1;
+
+    p{
+        margin: 12px 0 12px 0;
+        color:$cyberGreen;
+        font-size:30px;
+        text-align: center;
+    }
+}
