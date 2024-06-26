@@ -35,10 +35,40 @@
         color:Variable.$text-color2;
         border: 2px solid Variable.$border-color2;
     }
-    
-    .link-btn_1-1:hover {
-        opacity: 0.7;
-    }
+}
+
+.main-btn_2-1{
+    width: 300px;
+    height: 100px;
+    position: relative;
+    left: 1160px;
+    bottom:445px;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    background-color: Variable.$text-color1;
+    color:Variable.$text-color2;
+    border: 2px solid Variable.$border-color2;
+}
+
+.main-btn_2-2{
+    width: 300px;
+    height: 100px;
+    position: relative;
+    left: 860px;
+    bottom:45px;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    background-color: Variable.$text-color1;
+    color:Variable.$text-color2;
+    border: 2px solid Variable.$border-color2;
+}
+
+.link-btn_1-1:hover,
+.main-btn_2-1:hover,
+.main-btn_2-2:hover{
+    opacity: 0.7;
 }
 
 
