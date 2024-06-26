@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+import { Link,useNavigate } from "react-router-dom";
 import { Header } from "../Header";
 import { Footer } from "../Footer";
 import "../../../scss/Tutorial.scss";
@@ -6,6 +6,8 @@ import Fuwarin from "../../../img/FuwaPop.png"
 import pdf from "../../../pdf/demo.pdf"
 
 export const Tutorial = () => {
+    const navigate = useNavigate();
+
     return (
         <>
         <Header />
@@ -20,8 +22,9 @@ export const Tutorial = () => {
                 <Link target="_blank" to={pdf}><button className="link-btn_1-1">スライドを別タブで開く</button></Link>
             </div>
 
-            <button className="">スライドの内容を理解しました</button>
-            <button className="">ホーム画面に戻る</button>
+            <button className="main-btn_2-1">スライドの内容を理解しました</button>
+            <button className="main-btn_2-2" onClick={() => navigate("/")}>ホーム画面に戻る</button>
+
         </main>
         <Footer />
         </>
